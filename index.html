@@ -1,122 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Advertisement Website</title>
   <link rel="stylesheet" href="styles.css">
-  
 </head>
-
-
-<!--search option-->
-<div class="content">
-  <section class="search">
-    <input type="text" id="searchInput" placeholder="Search...">
-    <button id="searchButton">Search</button>
-  </section>
-
-  <section class="advertisements" id="advertisements">
-    <!-- Advertisement listings content goes here -->
-  </section>
-</div>
-
-
-
-  
 <body>
 
-
-
-
-  
-
-  <!--naavigation-->
-  <nav class="navbar"> 
-    
-    <h2>IsaM7 Online Links</h2>
-    </h2>
-    
-
-    
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Sign Up</a></li>
-      </u>
- 
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li class="search-container">
+        <form action="#" method="get">
+          <input type="text" placeholder="Search..." name="search">
+          <button type="submit">Search</button>
+        </form>
+      </li>
+      <li><a href="#" id="signup-link">Sign Up</a></li>
+      
+    </ul>
   </nav>
+
+  <header>
+    <h1>Advertisement Website</h1>
+  </header>
+
+  <!--call to action -->
+  <div class="container">
+    <h1>Welcome to our Website!</h1>
+    <p>Sign up now to get access to exclusive offers.</p>
+    <button id="cta-button">Sign Up</button>
+  </div>
+
+  <h2>Advertisements</h2>
+  <main id="ads">
+    <!-- Advertisements will be dynamically added here using JavaScript -->
+  </main>
+
+  <!--social sharing options-->
   
 
 
-  <!--user registration-->
-  <div class="container">
-    <h2>User Registration</h2>
-    <form id="registrationForm">
-      <div class="form-group">
+  <!--footer-->
+
+
+  <!--modal for user registration-->
+
+  <div id="registration-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Sign Up</h2>
+      <form id="registration-form">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required>
-      </div>
-      <div class="form-group">
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
-      </div>
-      <div class="form-group">
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required>
-      </div>
-      <div class="form-group">
         <button type="submit">Register</button>
-      </div>
-    </form>
-  </div>
-  
-
-<!--Ad posting features-->
-<div class="content">
-    <section class="post-ad">
-      <h2>Post Your Advertisement</h2>
-      <form id="postForm">
-        <input type="text" id="title" placeholder="Title" required>
-        <textarea id="description" placeholder="Description" required></textarea>
-        <input type="text" id="price" placeholder="Price" required>
-        <input type="text" id="location" placeholder="Location">
-        <input type="text" id="contact" placeholder="Contact Information">
-        <input type="submit" value="Submit">
       </form>
-    </section>
-
-    <section class="advertisements" id="advertisements">
-      <!-- Advertisement listings content goes here -->
-    </section>
+    </div>
   </div>
 
-  
-  <!--Rate us-->
-
-
-
-  
-
-
-
-<!--This is footer-->
-<footer class="footer">
-  <div class="footer-content">
-    <p>&copy; 2024 Advertisement Website. All rights reserved.</p>
-    <ul class="footer-links">
-      <li><a href="#">Privacy Policy</a></li>
-      <li><a href="#">Terms of Service</a></li>
-      <li><a href="#">Contact Us</a></li>
-    </ul>
-  </div>
-</footer>
-
+ 
 
   <script src="script.js"></script>
 </body>
 </html>
-
