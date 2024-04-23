@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
   // Sample advertisement data
   const advertisements = [
     { title: 'My advertisement 1', description: 'This is an example of a description ' },
-    { title: 'Advertisement 2', description: 'This is the second advertisement.' },
-    { title: 'Advertisement 3', description: 'This is the third advertisement.' }
+    { title: 'welcome to IsaM7 Web links website 2', description: ' Your website solutions at your finger tips!' },
+    { title: 'IsaM7 Web Links 3', description: 'Explore the world while relaxing at your favourite places .' }
   ];
 
   // Loop through the advertisement data and create HTML elements to display them
