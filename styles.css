@@ -134,8 +134,97 @@ button:hover {
   background-color: #0056b3;
 }
 
+/*sign up /*/* Add your CSS styles here */
+.signup {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-/*profile picture/*
+.signup h2 {
+  margin-bottom: 20px;
+}
 
+.signup-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #0056b3;
+}
+
+.signup-response {
+  margin-top: 15px;
+  text-align: center;
+}
+
+
+/*about us/*
+
+/* Add your CSS styles here */
+.about-us {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+}
+
+.about-us h2 {
+  margin-bottom: 10px;
+}
+
+.about-us p {
+  margin-bottom: 15px;
+}
+/* contact us */
+.contact-us {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-us h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.response-message {
+  margin-top: 15px;
+  text-align: center;
+}
 
 

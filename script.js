@@ -56,6 +56,23 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+  const signupForm = document.getElementById("signupForm");
+  const signupResponse = document.getElementById("signupResponse");
+
+  signupForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+    const formData = new FormData(signupForm);
+    const username = formData.get("username");
+    const email = formData.get("email");
+    const password = formData.get("password");
+
+    // Here you can perform actions like sending the form data to a server using AJAX
+    // For demonstration purposes, we'll just display a success message
+    signupResponse.textContent = `Thank you, ${username}! Your account has been created.`;
+    signupForm.reset();
+  });
+});
 
 //for social sharing 
 
