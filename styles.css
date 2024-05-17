@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #a5e118;
+  background-color: #e118c9;
   color: white;
   text-align: center;
   padding: 20px 0;
@@ -16,7 +16,7 @@ main {
 }
 
 footer {
-  background-color: #2fc24f;
+  background-color: #ec13ae;
   color: white;
   text-align: center;
   padding: 10px 0;
@@ -27,7 +27,7 @@ footer {
 
 /* Styles for navigation bar */
 nav {
-  background-color: #56cb35;
+  background-color: #ec14bd;
 }
 
 nav ul {
@@ -205,7 +205,7 @@ button:hover {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #0edbe6;
   border-radius: 5px;
 }
 
@@ -224,6 +224,78 @@ button:hover {
 
 .response-message {
   margin-top: 15px;
+  text-align: center;
+}
+.contact-info {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contact-info h2 {
+  margin-top: 0;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.contact-info, .signup-form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.contact-info h2, .signup-form h2 {
+  margin-top: 0;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.signup-form button {
+  background-color: #4CAF50;
+  color: rgb(18, 244, 192);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #45a049;
+}
+
+#signup-status {
+  margin-top: 10px;
   text-align: center;
 }
 

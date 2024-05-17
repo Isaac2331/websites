@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Sample advertisement data
   const advertisements = [
-    { title: 'Hallo world', description: 'Welcom to my web site, IsaM7 Web links' },
+    { title: 'Hello world', description: 'Welcom to my web site, IsaM7 Web links' },
     { title: 'IsaM7 Web links website', description: ' Your website solutions at your finger tips!' },
     { title: 'IsaM7 Web Links', description: 'Explore the world while relaxing at your favourite places .' }
   ];
@@ -73,8 +73,36 @@ document.addEventListener("DOMContentLoaded", function() {
     signupForm.reset();
   });
 });
+document.addEventListener("DOMContentLoaded", function() {
+  var signupForm = document.getElementById("signup-form");
+  var signupStatus = document.getElementById("signup-status");
 
-//for social sharing 
+  signupForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    var formData = new FormData(signupForm);
+    // Here you can add JavaScript to send the form data to your server or perform any other actions you need.
+    // For simplicity, I'll just display a message.
+    signupStatus.textContent = "Thank you for signing up!";
+    signupForm.reset();
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  var signupForm = document.getElementById("signup-form");
+  var signupStatus = document.getElementById("signup-status");
+
+  signupForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    var formData = new FormData(signupForm);
+    // Here you can add JavaScript to send the form data to your server or perform any other actions you need.
+    // For simplicity, I'll just display a message.
+    signupStatus.textContent = "Thank you for signing up!";
+    signupForm.reset();
+  });
+});
+
 
 
 
