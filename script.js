@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const advertisements = [
     { title: 'Hello world', description: 'Welcom to my web site, IsaM7 Web links' },
     { title: 'IsaM7 Web links website', description: ' Your website solutions at your finger tips!' },
-    { title: 'IsaM7 Web Links', description: 'Explore the world while relaxing at your favourite places .' }
+    { title: 'At IsaM7 Web Links', description: 'Explore the world while relaxing at your favourite places .' }
   ];
 
   // Loop through the advertisement data and create HTML elements to display them
