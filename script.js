@@ -104,6 +104,44 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+document.addEventListener("DOMContentLoaded", function() {
+  var signupForm = document.getElementById("signup-form");
+  var signupStatus = document.getElementById("signup-status");
+  var ctaButton = document.getElementById("cta-button");
 
+  signupForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    var formData = new FormData(signupForm);
+    // Here you can add JavaScript to send the form data to your server or perform any other actions you need.
+    // For simplicity, I'll just display a message.
+    signupStatus.textContent = "Thank you for signing up!";
+    signupForm.reset();
+  });
+
+  ctaButton.addEventListener("click", function() {
+    window.location.href = "#signup";
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  var signupForm = document.getElementById("signup-form");
+  var signupStatus = document.getElementById("signup-status");
+  var ctaButton = document.getElementById("cta-button");
+
+  signupForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    var formData = new FormData(signupForm);
+    // Here you can add JavaScript to send the form data to your server or perform any other actions you need.
+    // For simplicity, I'll just display a message.
+    signupStatus.textContent = "Thank you for signing up!";
+    signupForm.reset();
+  });
+
+  ctaButton.addEventListener("click", function() {
+    window.location.href = "#signup";
+  });
+});
 
 

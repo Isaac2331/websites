@@ -299,4 +299,242 @@ button:hover {
   text-align: center;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
 
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  background-color: #333;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+}
+
+.contact-info, .signup-form, .ads-section, .cta-section {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2, .signup-form h2, .ads-section h2, .cta-section h2 {
+  margin-top: 0;
+}
+
+.contact-info p, .ads-section .ad p, .cta-section p {
+  margin-bottom: 10px;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.signup-form button, .cta-section button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 100px 200px;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-form button:hover, .cta-section button:hover {
+  background-color: #42b2cb;
+}
+
+#signup-status {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+social-icons img {
+  width: 32px;
+  height: 32px;
+}
+
+.ads-section .ad {
+  border-bottom: 1px solid #2c0aef;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f10cde;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.cta-section {
+  text-align: center;
+}
+
+.cta-section button {
+  font-size: 1.2em;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #f00cdd;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  background-color: #e30fa7;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  background-color: #970de1;
+}
+
+.profile-section, .contact-info, .signup-form, .ads-section, .cta-section {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section h2, .contact-info h2, .signup-form h2, .ads-section h2, .cta-section h2 {
+  margin-top: 0;
+}
+
+.profile-picture {
+  width: 580px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.contact-info p, .ads-section .ad p, .cta-section p {
+  margin-bottom: 10px;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.signup-form button, .cta-section button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-form button:hover, .cta-section button:hover {
+  background-color: #2ce5f2;
+}
+
+#signup-status {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 32px;
+  height: 32px;
+}
+
+.ads-section .ad {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f206bf;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.cta-section {
+  text-align: center;
+}
+
+.cta-section button {
+  font-size: 1.2em;
+}
